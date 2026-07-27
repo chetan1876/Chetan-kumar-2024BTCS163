@@ -1,0 +1,129 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.welcome {
+  display: inline-block;
+  padding: 8px 18px;
+  background: #eef4ff;
+  color: #2563eb;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #111827;
+  margin-bottom: 20px;
+}
+
+.hero-title span {
+  color: #2563eb;
+}
+
+.hero-bio {
+  max-width: 560px;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #6b7280;
+  margin-bottom: 35px;
+}
+
+.know-more-btn {
+  padding: 15px 36px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.25);
+}
+
+.know-more-btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 18px 35px rgba(37, 99, 235, 0.35);
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.image-card {
+  width: 380px;
+  height: 380px;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #ffffff;
+  padding: 12px;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+  transition: 0.4s;
+}
+
+.image-card:hover {
+  transform: translateY(-10px);
+}
+
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+@media (max-width: 992px) {
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 0;
+  }
+
+  .hero-bio {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .image-card {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-bio {
+    font-size: 16px;
+  }
+
+  .image-card {
+    width: 260px;
+    height: 260px;
+  }
+
+  .know-more-btn {
+    width: 100%;
+  }
+}
