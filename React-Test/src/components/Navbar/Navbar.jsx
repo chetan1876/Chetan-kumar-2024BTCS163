@@ -6,12 +6,12 @@ const Navbar = ({ name, tag }) => {
     <header className="navbar">
       <div className="container navbar-container">
 
-        {/* Left */}
+        
         <div className="logo">
           <h2>{name}</h2>
         </div>
 
-        {/* Center */}
+        
         <nav className="nav-links">
           <NavLink
             to="/about"
@@ -32,7 +32,7 @@ const Navbar = ({ name, tag }) => {
           </NavLink>
         </nav>
 
-        {/* Right */}
+        
         <div className="tag">
           <span>{tag}</span>
         </div>
