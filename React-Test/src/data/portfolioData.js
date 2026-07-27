@@ -1,13 +1,13 @@
 const portfolioData = {
   name: "Chetan Kumar",
 
-  tag: "Frontend Developer",
+  tag: "RED TEAMING",
 
   shortBio:
-    "Passionate cybersecurity finding bugs in web applications and apps. I enjoy finding bugs because when i find bug and report .",
+    "Passionate cybersecurity finding bugs in web applications and apps. I enjoy finding bugs because when i find bug and report it to the platform than i get my reward it is really looks like ich people.",
 
   fullBio:
-    "Hello! I'm Chetan Kumar, a passionate cybersecurity with a strong interest in red teaming. I enjoy transforming ideas into responsive, interactive, and visually appealing applications. My goal is to write clean, reusable, and scalable code while continuously improving my skills. I love solving real-world problems through technology and am always eager to learn new tools and frameworks.",
+    "Hello! I'm Chetan Kumar, a passionate cybersecurity with a strong interest in red teaming. i am Transforming my analytical thinking into finding bugs to the web applications whos register himself in the plateform like integrity. My goal is to become a Red Teamer .",
 
   image: "/profile.jpg",
 
@@ -16,14 +16,14 @@ const portfolioData = {
       id: 1,
       title: "Technical Skills",
       items: [
-        "HTML5",
-        "CSS3",
+        "EDR",
+        "XDR",
         "JavaScript",
-        "React.js",
-        "React Router",
-        "Git",
+        "SPLUNK",
+        "NMAP",
+        "BURPSUIT",
         "GitHub",
-        "Responsive Design",
+        "KALI LINUX",
       ],
     },
 
@@ -31,10 +31,10 @@ const portfolioData = {
       id: 2,
       title: "Programming",
       items: [
-        "C",
-        "C++",
-        "Java",
-        "Python",
+        "PYTHON",
+        "BASH SCRIPTING",
+        "PYTHON SCRIPTING",
+        "RAT",
       ],
     },
 
@@ -68,15 +68,15 @@ const portfolioData = {
 
     {
       id: 2,
-      title: "Weather App",
+      title: "SIEM TOOLS",
       bio:
-        "A weather forecasting application that displays real-time weather information using a public API.",
+        "IT is a tool whics collects all the logs of all the networks and moniter all the suspicious activity by the SOC Analyst and they report all the bugs and escalate ",
 
       tags: [
-        "React",
-        "API",
-        "CSS",
-        "JavaScript",
+        "Window Terminal",
+        "Express js",
+        "firebase",
+        "splunk",
       ],
     },
 
