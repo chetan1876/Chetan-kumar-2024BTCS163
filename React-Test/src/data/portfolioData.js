@@ -4,10 +4,10 @@ const portfolioData = {
   tag: "Frontend Developer",
 
   shortBio:
-    "Passionate React.js developer who loves creating modern, responsive, and user-friendly web applications. I enjoy learning new technologies and building clean UI experiences.",
+    "Passionate cybersecurity finding bugs in web applications and apps. I enjoy finding bugs because when i find bug and report .",
 
   fullBio:
-    "Hello! I'm Chetan Kumar, a passionate Frontend Developer with a strong interest in React.js and modern web development. I enjoy transforming ideas into responsive, interactive, and visually appealing applications. My goal is to write clean, reusable, and scalable code while continuously improving my skills. I love solving real-world problems through technology and am always eager to learn new tools and frameworks.",
+    "Hello! I'm Chetan Kumar, a passionate cybersecurity with a strong interest in red teaming. I enjoy transforming ideas into responsive, interactive, and visually appealing applications. My goal is to write clean, reusable, and scalable code while continuously improving my skills. I love solving real-world problems through technology and am always eager to learn new tools and frameworks.",
 
   image: "/profile.jpg",
 

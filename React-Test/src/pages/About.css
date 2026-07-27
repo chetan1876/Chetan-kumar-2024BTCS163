@@ -1,0 +1,12 @@
+.about-page {
+  min-height: 100vh;
+  padding: 60px 0;
+  background: linear-gradient(135deg, #f8fbff 0%, #eef5ff 100%);
+}
+
+.about-page .container {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
